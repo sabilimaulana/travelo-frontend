@@ -1,5 +1,3 @@
 export default function IndexPage() {
-  return (
-    <div>Hello, Travelo!</div>
-  )
+  return <div className="text-yellow-70">Hello, Travelo!</div>;
 }
