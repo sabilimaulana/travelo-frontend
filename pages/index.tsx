@@ -1,14 +1,4 @@
-import Layout from "components/Layout";
-
+import HomeContainer from "../src/containers/Home";
 export default function IndexPage() {
-  return (
-    <Layout>
-      <div className="text-yellow-70 font-label font-bold text-heading-1">
-        Hello, Travelo!
-      </div>
-      <div className="text-yellow-70 font-sans font-bold text-heading-1">
-        Hello, Travelo!
-      </div>
-    </Layout>
-  );
+  return <HomeContainer />;
 }
