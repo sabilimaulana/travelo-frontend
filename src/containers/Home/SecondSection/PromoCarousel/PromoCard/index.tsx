@@ -1,5 +1,5 @@
 import Button from "components/Button";
-import Image from "next/dist/client/image";
+import Image from "next/image";
 
 const PromoCard = () => {
   return (
