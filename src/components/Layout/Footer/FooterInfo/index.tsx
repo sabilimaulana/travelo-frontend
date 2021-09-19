@@ -25,7 +25,11 @@ const FooterInfo = ({ title, content }: Props) => {
             </Link>
           );
         } else {
-          return <p className="text-heading-4 text-gray-50 mb-3">{item}</p>;
+          return (
+            <p key={index} className="text-heading-4 text-gray-50 mb-3">
+              {item}
+            </p>
+          );
         }
       })}
     </div>
