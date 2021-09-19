@@ -26,6 +26,15 @@ const TestimonialCard = () => {
       </div>
 
       <Rating />
+
+      <p className="text-heading-5 text-gray-70 my-4">
+        Perjalanannya nyaman banget, ditambah dapet penginapan yang bagus, tour
+        guidenya juga baik banget dan ramah, ga nyesel pesen paket travel disini
+      </p>
+      <p className="text-heading-5 text-gray-100 font-bold">
+        Nusa Penida, Bali
+      </p>
+      <p className="text-heading-6 text-gray-50">17-10-2020</p>
     </article>
   );
 };
