@@ -8,9 +8,9 @@ const Categories = () => {
       </h3>
 
       <div className="flex justify-between">
-        {Array.from({ length: 6 }).map((_, index) => {
-          <CategoryCard key={index} />;
-        })}
+        {Array.from({ length: 6 }).map((_, index) => (
+          <CategoryCard key={index} />
+        ))}
       </div>
     </>
   );
